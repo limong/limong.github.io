@@ -1,3 +1,3 @@
 # limong blog
 
-## Blog
+## Blog cool!
