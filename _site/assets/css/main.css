@@ -1,0 +1,4 @@
+h1.main.title {
+  object-fit: cover;
+  background: url("/assets/images/design/main_top1.jpg") no-repeat;
+}
