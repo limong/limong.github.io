@@ -1,4 +1,5 @@
-h1.main.title {
-  /* object-fit: cover;
-  background: url("/assets/images/design/main_top1.jpg") no-repeat; */
+.header-logo {
+  width: 39px;
+  height: 39px;
+  border-radius: 30px;
 }

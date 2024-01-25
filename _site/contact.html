@@ -19,11 +19,11 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Contact" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Contact","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"url":"http://localhost:4000/contact.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Contact","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo-blog.png"}},"url":"http://localhost:4000/contact.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo-blog.png">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -45,8 +45,8 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <a class="navbar-brand font-weight-bolder mr-3" href="/index.html"><img
-        src="/assets/images/logo.png"></a>
+    <a class="navbar-brand font-weight-bolder mr-3" href="/"><img class="header-logo"
+        src="/assets/images/logo-blog.png"></a>
     <button class="navbar-light navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
       aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@ var documents = [{
     "id": 0,
     "url": "http://localhost:4000/about.html",
     "title": "About",
-    "body": "Hi, guys! The website you are previewing is a demonstration for Pintereso Jekyll theme and it is hosted on Github pages. There are various ways you can use Pintereso with your Jekyll website. Here are some of them:  blogging curated resources affiliate marketing resume portfolio photographyFeatures  100% Github Pages Compatibility Bootstrap 4. x SEO Integration Search Categories Prev/Next Post Pagination Disqus Comments Sitemap Feed Formspree Contact Form Pinterest, AddThis, Google Analytics Font Awesome 5+ Cookie Consent &amp; Privacy PolicyMade with by Sal @wowthemesnet. Thanks for your support! pintereso. zip Buy me a coffee? "
+    "body": "LIMONG Blog 현재 올리브영에서 개발자로 근무하고 있다. 개발 문화, 팀 문화에 관심이 많다. Tech Skill  Javascript, Typescript React, NextJS"
     }, {
     "id": 1,
     "url": "http://localhost:4000/categories.html",
@@ -83,7 +83,7 @@ var documents = [{
     "id": 3,
     "url": "http://localhost:4000/",
     "title": "limong Blog",
-    "body": "   Explore     {% include menu-categories. html %}         {% for post in paginator. posts reversed %}   {% include card-post. html %}   {% endfor %}          {% if paginator. total_pages &gt; 1 %}       {% if paginator. previous_page %}    &laquo; Prev    {% else %}    &laquo; Prev    {% endif %}    {% for page in (1. . paginator. total_pages) %}    {% if page == paginator. page %}    {{ page }}    {% elsif page == 1 %}    {{ page }}    {% else %}    {{ page     }}    {% endif %}    {% endfor %}    {% if paginator. next_page %}    Next &raquo;    {% else %}    Next &raquo;    {% endif %}      {% endif %}   "
+    "body": "   Limong Blog.      {% include menu-categories. html %}         {% for post in paginator. posts reversed %}   {% include card-post. html %}   {% endfor %}          {% if paginator. total_pages &gt; 1 %}       {% if paginator. previous_page %}    &laquo; Prev    {% else %}    &laquo; Prev    {% endif %}    {% for page in (1. . paginator. total_pages) %}    {% if page == paginator. page %}    {{ page }}    {% elsif page == 1 %}    {{ page }}    {% else %}    {{ page     }}    {% endif %}    {% endfor %}    {% if paginator. next_page %}    Next &raquo;    {% else %}    Next &raquo;    {% endif %}      {% endif %}   "
     }, {
     "id": 4,
     "url": "http://localhost:4000/privacy-policy.html",
@@ -159,30 +159,37 @@ function lunr_search(term) {
         <!--  Replace top menu links here -->
 
 <li class="nav-item">
-    <a class="nav-link active" href="/index.html">Home</a>
+	<a class="nav-link active" href="/index.html">Home</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="/categories.html">Categories</a>
+	<a class="nav-link" href="/categories.html">Categories</a>
 </li>
-<li class="nav-item">
+<!-- <li class="nav-item">
     <a class="nav-link" href="/web-concepts-library/">Post</a>
+</li> -->
+<li class="nav-item">
+	<a class="nav-link" href="/contact.html">Contact</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="/contact.html">Contact</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="/about.html"><img class="rounded-circle mr-2" src="/assets/images/sal.jpg" width="30"><span class="align-middle">About</span></a>
+	<a class="nav-link" href="/about.html"><img class="rounded-circle mr-2"
+			src="/assets/images/profile.png" width="30"><span class="align-middle">About</span></a>
 </li>
 <li class="nav-item dropdown">
 	<a class="nav-link" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	  <svg style="margin-top:10px;" class="_3DJPT" version="1.1" viewbox="0 0 32 32" width="21" height="21" aria-hidden="false" data-reactid="71"><path d="M7 15.5c0 1.9-1.6 3.5-3.5 3.5s-3.5-1.6-3.5-3.5 1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5zm21.5-3.5c-1.9 0-3.5 1.6-3.5 3.5s1.6 3.5 3.5 3.5 3.5-1.6 3.5-3.5-1.6-3.5-3.5-3.5zm-12.5 0c-1.9 0-3.5 1.6-3.5 3.5s1.6 3.5 3.5 3.5 3.5-1.6 3.5-3.5-1.6-3.5-3.5-3.5z" data-reactid="22"></path></svg>
+		<svg style="margin-top:10px;" class="_3DJPT" version="1.1" viewbox="0 0 32 32" width="21" height="21"
+			aria-hidden="false" data-reactid="71">
+			<path
+				d="M7 15.5c0 1.9-1.6 3.5-3.5 3.5s-3.5-1.6-3.5-3.5 1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5zm21.5-3.5c-1.9 0-3.5 1.6-3.5 3.5s1.6 3.5 3.5 3.5 3.5-1.6 3.5-3.5-1.6-3.5-3.5-3.5zm-12.5 0c-1.9 0-3.5 1.6-3.5 3.5s1.6 3.5 3.5 3.5 3.5-1.6 3.5-3.5-1.6-3.5-3.5-3.5z"
+				data-reactid="22"></path>
+		</svg>
 	</a>
 	<div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="dropdown02">
-		<h4 class="dropdown-header display-4">Download Pintereso<br/> Free Bootstrap Jekyll Theme</h4>
+		<h4 class="dropdown-header display-4">Download Pintereso<br /> Free Bootstrap Jekyll Theme</h4>
 		<div class="dropdown-divider">
 		</div>
 		<span class="dropdown-item">
-			<a href="https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip" class="btn btn-primary d-block"><i class="fa fa-download"></i> Download
+			<a href="https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip"
+				class="btn btn-primary d-block"><i class="fa fa-download"></i> Download
 			</a>
 		</span>
 	</div>
@@ -265,30 +272,30 @@ function lunr_search(term) {
 -->
 
 <p>
-    
-<span class="credits"> 
-    
-	<a target="_blank" class="text-dark" href="https://www.wowthemes.net/pintereso-free-bootstrap-jekyll-theme/">
-		Made with <i class="fa fa-heart text-danger"></i> <u>Pintereso Jekyll Theme</u>.
-	</a>
-    
-</span>
-    
+
+    <span class="credits">
+
+        <a target="_blank" class="text-muted" href="https://www.wowthemes.net/pintereso-free-bootstrap-jekyll-theme/">
+            Made with <u>Pintereso Jekyll Theme</u>.
+        </a>
+
+    </span>
+
 </p>
 
 <p>
     <a class="text-muted" href="http://localhost:4000/">
-        &copy;  limong. 
+        &copy; limong.
     </a>
-    
+
     <a class="text-muted" href="http://localhost:4000/privacy-policy.html">
         Privacy Policy.
     </a>
-    
+
     <a class="text-muted" target="_blank" href="https://www.wowthemes.net/freebies-license/">
         License.
     </a>
-    
+
 </p>
     </div>
   </footer>
