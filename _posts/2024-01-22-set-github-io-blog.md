@@ -2,8 +2,7 @@
 title: "깃헙 블로그 생성 with Jekyll Pinterest Theme"
 metadate: "hide"
 categories: [blog, github.io, Jekyll, dev]
-image: "/assets/images/post/240122-github-io-blog/main.png"
-visit: ""
+image: "/assets/img/post/240122-github-io-blog/main.png"
 ---
 
 블로그를 만들어야 겠다.
@@ -35,7 +34,7 @@ visit: ""
 - 브라우저를 열고 아래 url을 입력하면 짜잔 뜬다.
   - `http://localhost:4000/template-pintereso-bootstrap-jekyll/`
 - 아래처럼 뜨면 성공이다.
-  ![/assets/images/post/240122-github-io-blog/main.png](/assets/images/post/240122-github-io-blog/main.png)
+  ![/assets/img/post/240122-github-io-blog/main.png](/assets/images/post/240122-github-io-blog/main.png)
 
 #### 커스텀
 

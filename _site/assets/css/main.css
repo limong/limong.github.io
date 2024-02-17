@@ -3,3 +3,10 @@
   height: 39px;
   border-radius: 30px;
 }
+
+img + em {
+  color: gray;
+  font-size: 0.7rem;
+  display: block;
+  text-align: center;
+}
