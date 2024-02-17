@@ -22,7 +22,7 @@ image: "/assets/img/post/240122-github-io-blog/main.png"
 - 다운로드 받은 소스에서 `.git` 파일을 삭제한다.
   - 해당 파일을 삭제해야 기존 history가 남지 않는다. 안지워도 상관은 없다.
 
-#### Ruby 설지
+#### Ruby 설치
 
 - Jekyll은 ruby 3.1.3 이상을 추천한다.
   - 낮은 버전을 사용하고 있다면 버전 업데이트를 하자
