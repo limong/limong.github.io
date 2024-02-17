@@ -1,7 +1,7 @@
 ---
 title: "깃헙 블로그 생성 with Jekyll Pinterest Theme"
 metadate: "hide"
-categories: [blog, github.io, Jekyll, dev]
+categories: ["dev"]
 image: "/assets/img/post/240122-github-io-blog/main.png"
 ---
 

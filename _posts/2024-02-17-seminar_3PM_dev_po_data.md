@@ -1,7 +1,7 @@
 ---
 title: "개발자, PO, 데이터사이언스 삼자대면 - 래빗톡"
 metadate: "hide"
-categories: ['rabbittalk', '개발원칙', '삼자대면', '개발자원칙']
+categories: ['행사, 밋업']
 image: "/assets/img/post/2024-02-17-seminar_3PM_dev_po_data/all.jpg"
 ---
 
